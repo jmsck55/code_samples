@@ -1,0 +1,37 @@
+From: MyName <myemail@email.com>
+To: YourName <youremail@email.com>
+Subject: Date Data Transfer
+MIME-Version: 1.0
+Content-type: multipart/mixed; boundary="simple boundary"
+
+This is the preamble.  It is to be ignored, though it
+is a handy place for mail composers to include an
+explanatory note to non-MIME compliant readers.
+There should be a way to prevent \r\n from being interpreted
+as a date, so we cannot use \r\n in dates. (Also -- bytes.)
+{13,10}
+{45,45}
+--simple boundary 
+
+MyDateTransferMethod
+(c) James Cook
+Version=0.3
+Method="LowOrderBitsToHigh;days=5bits;months=4bits;years=7bits"
+SizePerMember=16bits
+StartDayAt=1
+StartMonthAt=1
+OffsetOfYearZeroValueIs=26
+YearSpan=100
+StartingYear=2000
+EndingYear=2100
+--simple boundary 
+Content-Type: x-dates
+Content-Transfer-Encoding: BINARY
+Content-Description: (c) James Cook
+
+[binary data goes here, begins with a linebreak]
+[16bit date values]
+[and ends with a linebreak]
+
+--simple boundary 
+This is the epilogue.  It is also to be ignored.

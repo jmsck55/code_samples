@@ -1,3 +1,4 @@
+REM Copyright (c) 2020 James J. Cook
 echo clean
 pause
 del *.dll *.exe *.obj *.lib *.exp

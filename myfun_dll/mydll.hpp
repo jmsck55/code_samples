@@ -1,3 +1,4 @@
+// Copyright (c) 2020 James J. Cook
 
 #ifndef __MYDLL_H__
 #define __MYDLL_H__

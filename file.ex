@@ -1,3 +1,4 @@
+-- Copyright (c) 2020 James J. Cook
 
 -- Certain functions use file numbers (fn). They may be considered as "streams".
 -- Like all streams, they need to be opened and closed.

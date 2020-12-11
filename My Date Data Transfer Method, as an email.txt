@@ -14,7 +14,7 @@ as a date, so we cannot use \r\n in dates. (Also -- bytes.)
 --simple boundary 
 
 MyDateTransferMethod
-(c) James Cook
+(c) 2020 James J. Cook
 Version=0.3
 Method="LowOrderBitsToHigh;days=5bits;months=4bits;years=7bits"
 SizePerMember=16bits
@@ -27,7 +27,7 @@ EndingYear=2100
 --simple boundary 
 Content-Type: x-dates
 Content-Transfer-Encoding: BINARY
-Content-Description: (c) James Cook
+Content-Description: (c) 2020 James J. Cook
 
 [binary data goes here, begins with a linebreak]
 [16bit date values]

@@ -1,3 +1,4 @@
+-- Copyright (c) 2020 James J. Cook
 
 -- NOTE:
 -- with type_check (default), Euphoria treats all variables as objects

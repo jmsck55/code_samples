@@ -1,4 +1,5 @@
 ' https://www.techrepublic.com/article/automate-tasks-with-windows-script-hosts-sendkeys-method/
+' Make sure the arrow num-lock keys are working, by pressing NumLock key either a total of one or two times.
 Set WshShell = WScript.CreateObject("WScript.Shell")
 T1 = "DOSBox 0.72"
 Sub KeyIt(Keystroke, WinTitle)

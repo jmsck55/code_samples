@@ -1,3 +1,4 @@
+' https://www.techrepublic.com/article/automate-tasks-with-windows-script-hosts-sendkeys-method/
 Set WshShell = WScript.CreateObject("WScript.Shell")
 T1 = "DOSBox 0.72"
 Sub KeyIt(Keystroke, WinTitle)

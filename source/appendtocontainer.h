@@ -2,7 +2,12 @@
 // Copyright (c) 2021 James Cook
 
 
+#ifndef __APPENDTOCONTAINER_H__
+#define __APPENDTOCONTAINER_H__
+
+
 #include <stdio.h>
+#include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -97,3 +102,5 @@ appendcontainer * readlines(const char * filename)
 	fclose (pFile);
 	return lines;
 }
+
+#endif // !__APPENDTOCONTAINER_H__
